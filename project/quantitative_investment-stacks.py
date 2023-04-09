@@ -1,7 +1,7 @@
 import tushare as ts
 import pandas as pd
 # 登录tushare账号，获取token
-ts.set_token("928a7fbabe794c1e3312dc2117a8a4d597d4ff24bbe6ee475fa87726")
+ts.set_token("")
 pro = ts.pro_api()
 
 # 设置股票池和起止日期
