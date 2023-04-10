@@ -1,5 +1,5 @@
 # import tushare as ts
-# ts.set_token('928a7fbabe794c1e3312dc2117a8a4d597d4ff24bbe6ee475fa87726')
+# ts.set_token('')
 # pro = ts.pro_api()
 # df = pro.daily(ts_code='002236.SZ', start_date='20180701', end_date='20230301')
 # print(df) //Tushare
