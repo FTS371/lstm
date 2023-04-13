@@ -78,7 +78,7 @@ corr_matrix = pd.DataFrame({'600036.SH': [1.00, 0.65, 0.72, 0.59, 0.71],
                            index=['600036.SH', '601318.SH', '000858.SZ', '000002.SZ', '000651.SZ'])
 
 # 获取行情数据
-ts.set_token("")
+ts.set_token("928a7fbabe794c1e3312dc2117a8a4d597d4ff24bbe6ee475fa87726")
 pro = ts.pro_api()
 df = pd.DataFrame()
 for stock in stock_pool:
